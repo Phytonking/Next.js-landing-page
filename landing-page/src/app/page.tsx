@@ -11,6 +11,7 @@ import CTA from './Components/CTA'
 import Footer from './Components/Footer'
 import ContactForm from './Components/Contact'
 import { useState } from 'react';
+import { Analytics } from "@vercel/analytics/react";
 
 function Page() {
   return (

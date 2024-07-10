@@ -46,12 +46,9 @@ const Navbar: React.FC = () => {
               </NavItem>
             ))}
           </div>
-
-          <div className="hidden md:flex items-center">
-            <Button text="Log In" variant="secondary" size="medium" />
-            <Button text="Get it for Free" variant="primary" size="medium" />
-          </div>
-
+          
+          
+            
           <div className="md:hidden">
             <button
               onClick={toggleMenu}
@@ -86,3 +83,10 @@ const Navbar: React.FC = () => {
 };
 
 export default Navbar;
+/*
+<div className="hidden md:flex items-center">
+            <Button text="Log In" variant="secondary" size="medium" />
+            <Button text="Get it for Free" variant="primary" size="medium" />
+          </div>
+*/ 
+// FOR LATER USE
