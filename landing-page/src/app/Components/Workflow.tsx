@@ -8,17 +8,17 @@ const steps = [
   {
     number: "1",
     title: "Sign Up",
-    description: "Create an account to start building your landing page effortlessly.",
+    description: "Create an account to start talking with our AI, Fin.",
   },
   {
     number: "2",
-    title: "Choose a Template",
+    title: "Talk With Fin",
     description: "Select from a variety of customizable templates that suit your needs.",
   },
   {
     number: "3",
-    title: "Launch",
-    description: "Deploy your landing page with just a few clicks and start attracting visitors.",
+    title: "Apply Your Plan",
+    description: "Apply the plan that Fin has created for you and enjoy the ride!",
   },
 ];
 
@@ -29,7 +29,7 @@ const Workflow: React.FC = () => {
         <Badge text="Steps" />
         <SectionTitle 
         title="How it Works?"
-        description="Simple and easy Steps to Launch Your Landing Page quickly"
+        description="Simple and easy Steps to getting your finances on track"
         />
       </div>
       <div className="flex flex-col md:flex-row gap-4 items-center md:-ml-32 md:px-12 px-4">

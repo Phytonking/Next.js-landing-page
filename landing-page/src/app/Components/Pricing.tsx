@@ -13,43 +13,27 @@ const pricingPlans = {
       price: "$0",
       duration: "month",
       features: [
-        { text: "Customizable figma files", available: true },
-        { text: "Copywriting cheatcodes", available: true },
-        { text: "High-quality images", available: true },
-        { text: "SEO optimized", available: false },
-        { text: "Free updates", available: false },
-        { text: "24/7 support", available: false },
+        { text: "100 messages with Fin per day", available: true },
+        { text: "5 free financial analyses per month", available: true },
+        { text: "Exclusive Bonuses", available: false },
+        { text: "No access to User-Created-Funds", available: false },
+        { text: "No access to Headstart IPO investing and management", available: false },
       ],
       buttonText: "Get started for free",
     },
     {
       planName: "Pro",
-      price: "$19",
+      price: "$10",
       duration: "month",
       features: [
-        { text: "Customizable figma files", available: true },
-        { text: "Copywriting cheatcodes", available: true },
-        { text: "High-quality images", available: true },
-        { text: "SEO optimized", available: true },
-        { text: "Free updates", available: true },
-        { text: "24/7 support", available: false },
+        { text: "Unlimited messages with Fin per day", available: true },
+        { text: "Unlimited financial analyses and reports", available: true },
+        { text: "All exclusive bonuses for spending", available: true },
+        { text: "Access to be a user created funds owner", available: true },
+        { text: "Access to Headstart IPO investing and management", available: true},
       ],
-      buttonText: "Get started",
-    },
-    {
-      planName: "Premium",
-      price: "$39",
-      duration: "month",
-      features: [
-        { text: "Customizable figma files", available: true },
-        { text: "Copywriting cheatcodes", available: true },
-        { text: "High-quality images", available: true },
-        { text: "SEO optimized", available: true },
-        { text: "Free updates", available: true },
-        { text: "24/7 support", available: true },
-      ],
-      buttonText: "Get started",
-    },
+      buttonText: "Get started with a 30 day free trial",
+    }
   ],
   yearly: [
     {
@@ -57,43 +41,28 @@ const pricingPlans = {
       price: "$0",
       duration: "year",
       features: [
-        { text: "Customizable figma files", available: true },
-        { text: "Copywriting cheatcodes", available: true },
-        { text: "High-quality images", available: true },
-        { text: "SEO optimized", available: false },
-        { text: "Free updates", available: false },
-        { text: "24/7 support", available: false },
+        { text: "100 messages with Fin per day", available: true },
+        { text: "5 free financial analyses per month", available: true },
+        { text: "Exclusive Bonuses", available: false },
+        { text: "No access to User-Created-Funds", available: false },
+        { text: "No access to Headstart IPO investing and management", available: false },
       ],
       buttonText: "Get started for free",
     },
     {
       planName: "Pro",
-      price: "$49",
+      price: "$60",
       duration: "year",
       features: [
-        { text: "Customizable figma files", available: true },
-        { text: "Copywriting cheatcodes", available: true },
-        { text: "High-quality images", available: true },
-        { text: "SEO optimized", available: true },
-        { text: "Free updates", available: true },
-        { text: "24/7 support", available: false },
+        { text: "Unlimited messages with Fin per day", available: true },
+        { text: "Unlimited financial analyses and reports", available: true },
+        { text: "All exclusive bonuses for spending", available: true },
+        { text: "Access to be a user created funds owner", available: true },
+        { text: "Access to Headstart IPO investing and management", available: true},
       ],
-      buttonText: "Get started",
-    },
-    {
-      planName: "Premium",
-      price: "$69",
-      duration: "year",
-      features: [
-        { text: "Customizable figma files", available: true },
-        { text: "Copywriting cheatcodes", available: true },
-        { text: "High-quality images", available: true },
-        { text: "SEO optimized", available: true },
-        { text: "Free updates", available: true },
-        { text: "24/7 support", available: true },
-      ],
-      buttonText: "Get started",
-    },
+      buttonText: "Get started with a 30 day free trial",
+    }
+    
   ],
 };
 
@@ -105,7 +74,7 @@ const Pricing: React.FC = () => {
   };
 
   return (
-    <section id="pricing" className="bg-emerald-50 md:mt-24 mt-8">
+    <section id="pricing" className="bg-blue-50 md:mt-24 mt-8">
       <div className="container max-w-[1280px] py-16 px-4 mx-auto flex flex-col items-center gap-3">
         <Badge text="Pricing" bgColor="bg-white" />
         <SectionTitle

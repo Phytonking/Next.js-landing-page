@@ -28,6 +28,7 @@ const Navbar: React.FC = () => {
     { name: "Pricing", href: "#pricing" },
     { name: "Testimonials", href: "#testimonials" },
     { name: "FAQ", href: "#faq" },
+    { name: "Contact", href: "#contact" },
   ];
 
   return (
@@ -35,10 +36,10 @@ const Navbar: React.FC = () => {
       <nav className="max-w-[1200px] mx-auto px-4 md:px-2 py-2">
         <div className="flex justify-between items-center">
           <div className="flex items-center justify-center">
-            <Image src="/logo2.svg" alt="logo" width={140} height={140} priority />
+            <Image src="/finwheel-logo-whole.png" alt="logo" width={200} height={200} priority />
           </div>
 
-          <div className="hidden md:flex gap-12 ml-20 items-center justify-center">
+          <div className="hidden md:flex gap-12 ml-20 items-center justify-center hover:text-blue-700 transition-colors">
             {menuItems.map((item) => (
               <NavItem key={item.name} href={item.href}>
                 {item.name}

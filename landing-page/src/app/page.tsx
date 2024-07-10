@@ -9,6 +9,8 @@ import Testimonials from './Components/Testimonials'
 import FAQ from './Components/FAQ'
 import CTA from './Components/CTA'
 import Footer from './Components/Footer'
+import ContactForm from './Components/Contact'
+import { useState } from 'react';
 
 function Page() {
   return (
@@ -25,6 +27,7 @@ function Page() {
         <Testimonials />
         <FAQ />
         <CTA />
+        <ContactForm />
       </main>
       <div className="w-full">
         <Footer />

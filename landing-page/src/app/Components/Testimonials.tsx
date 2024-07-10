@@ -6,19 +6,19 @@ import TestimonialCard from "./ui/TestimonialCard";
 const testimonials = [
   {
     image: "Oval.svg",
-    quote: "LaunchPage has completely transformed our product launch process. The intuitive design and powerful features allowed us to create a stunning landing page in record time. Our conversion rates have skyrocketed.",
+    quote: "FinWheel has helped me manage my finances with ease, and I'm on track to a perfect retirement in 25 years. ",
     name: "Isabella Chavez",
-    title: "Director of Marketing, TechNova Inc.",
+    title: "Individual User of FinWheel",
   },
   {
     image: "Oval2.svg",
-    quote: "As a solo entrepreneur, I was struggling to create a professional-looking website that truly represented my brand. LaunchPage came to the rescue with its user-friendly interface and customizable components. I was able to launch my product in just two days.",
+    quote: "I was struggling to find a way to make money creating my own fund that my users can invest in that truly represented my brand. FinWheel came to the rescue with its User-Created Funds platform and allowed my community to have the investment fund they wanted.",
     name: "John Doe",
-    title: "Founder, EcoSmart Solutions",
+    title: "Founder, Infinite Options",
   },
   {
     image: "Oval3.svg",
-    quote: "I've used numerous landing page builders in my career, but LaunchPage stands head and shoulders above the rest. The attention to detail in design, the seamless integration with our existing tools.",
+    quote: "I've used many companies in the past to help me raise capital for my business, but FinWheel makes it super accessible for users like me to get my capital from people who truly belive in the startup that I am bulding.",
     name: "Jane Smith",
     title: "CMO, GlobalTech Innovations",
   },
@@ -31,7 +31,7 @@ const Testimonials: React.FC = () => {
         <Badge text="Testimonials" />
         <SectionTitle
           title="What Users Are Saying"
-          description="Discover how our LaunchPage template has transformed the way businesses launch their products."
+          description="Discover how FinWheel's tools has transformed the way people invest."
         />
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-2">
           {testimonials.map((testimonial, index) => (
