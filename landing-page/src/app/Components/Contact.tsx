@@ -98,6 +98,8 @@ const ContactForm: React.FC = () => {
                 <button type="submit" style={submitButtonStyle}>Submit</button>
             </form>
       </div>
+        
+      <p>Email: customer-service@finwheel.tech</p>
     </section> 
   );
 };
