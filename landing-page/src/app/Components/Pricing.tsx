@@ -17,22 +17,22 @@ const pricingPlans = {
         { text: "5 free financial analyses per month", available: true },
         { text: "Exclusive Bonuses", available: false },
         { text: "No access to User-Created-Funds", available: false },
-        { text: "No access to Headstart IPO investing and management", available: false },
+        { text: "Access to Headstart-IPO", available: false },
       ],
-      buttonText: "Get started for free",
+      buttonText: "Sign up for Beta Testing",
     },
     {
       planName: "Pro",
-      price: "$10",
+      price: "$5",
       duration: "month",
       features: [
-        { text: "Unlimited messages with Fin per day", available: true },
+        { text: "Unlimited messages with Fin", available: true },
         { text: "Unlimited financial analyses and reports", available: true },
         { text: "All exclusive bonuses for spending", available: true },
         { text: "Access to be a user created funds owner", available: true },
-        { text: "Access to Headstart IPO investing and management", available: true},
+        { text: "Access to Headstart-IPO", available: true},
       ],
-      buttonText: "Get started with a 30 day free trial",
+      buttonText: "Sign up for Beta Testing",
     }
   ],
   yearly: [
@@ -44,23 +44,23 @@ const pricingPlans = {
         { text: "100 messages with Fin per day", available: true },
         { text: "5 free financial analyses per month", available: true },
         { text: "Exclusive Bonuses", available: false },
-        { text: "No access to User-Created-Funds", available: false },
-        { text: "No access to Headstart IPO investing and management", available: false },
+        { text: "Access to User-Created-Funds", available: false },
+        { text: "Access to Headstart-IPO", available: false },
       ],
-      buttonText: "Get started for free",
+      buttonText: "Sign up for Beta Testing",
     },
     {
       planName: "Pro",
-      price: "$60",
+      price: "$45",
       duration: "year",
       features: [
-        { text: "Unlimited messages with Fin per day", available: true },
+        { text: "Unlimited messages with Fin", available: true },
         { text: "Unlimited financial analyses and reports", available: true },
         { text: "All exclusive bonuses for spending", available: true },
         { text: "Access to be a user created funds owner", available: true },
-        { text: "Access to Headstart IPO investing and management", available: true},
+        { text: "Access to Headstart-IPO", available: true},
       ],
-      buttonText: "Get started with a 30 day free trial",
+      buttonText: "Sign up for Beta Testing",
     }
     
   ],
@@ -87,14 +87,16 @@ const Pricing: React.FC = () => {
 
         <div  className="flex justify-center gap-8 flex-wrap">
           {pricingPlans[isMonthly ? "monthly" : "yearly"].map((plan, index) => (
-            <PricingCard
-              key={index}
-              planName={plan.planName}
-              price={plan.price}
-              duration={plan.duration}
-              features={plan.features}
-              buttonText={plan.buttonText}
-            />
+            <a href="https://forms.gle/AjQyY4srfNivnQPHA" target="_blank">
+              <PricingCard
+                key={index}
+                planName={plan.planName}
+                price={plan.price}
+                duration={plan.duration}
+                features={plan.features}
+                buttonText={plan.buttonText}
+              />
+            </a>
           ))}
         </div>
       </div>

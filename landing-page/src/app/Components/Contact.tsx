@@ -56,7 +56,59 @@ const ContactForm: React.FC = () => {
             title="Contact Us"
             description="Got a question? Ask us down here and we will get back to you!"
             />
-            <form action="http://your-django-server-url/submit-form/" style={formStyle} method="post">
+        <h4>Email: <a href="mailto:customer-service@finwheel.tech" target="_blank">customer-service@finwheel.tech</a></h4>
+      </div>
+        
+      
+    </section> 
+  );
+};
+
+// Inline styles
+const formStyle: React.CSSProperties = {
+    maxWidth: '400px',
+    margin: '0 auto',
+    padding: '20px',
+    border: '1px solid #ccc',
+    borderRadius: '5px',
+    backgroundColor: '#f9f9f9',
+};
+  
+  const formGroup: React.CSSProperties = {
+    marginBottom: '15px',
+  };
+  
+  const labelStyle: React.CSSProperties = {
+    display: 'block',
+    marginBottom: '5px',
+    fontWeight: 'bold',
+  };
+  
+  const inputStyle: React.CSSProperties = {
+    width: '100%',
+    padding: '8px',
+    fontSize: '14px',
+    border: '1px solid #ccc',
+    borderRadius: '4px',
+  };
+  
+  const textareaStyle: React.CSSProperties = {
+    minHeight: '100px',
+  };
+  
+  const submitButtonStyle: React.CSSProperties = {
+    backgroundColor: 'blue',
+    color: 'white',
+    padding: '10px 20px',
+    border: 'none',
+    borderRadius: '4px',
+    cursor: 'pointer',
+  };
+
+export default ContactForm;
+
+/*
+<form action="http://your-django-server-url/submit-form/" style={formStyle} method="post">
                 <div style={formGroup}>
                     <label htmlFor="name" style={labelStyle}>Name:</label>
                     <input
@@ -97,52 +149,4 @@ const ContactForm: React.FC = () => {
                 </div>
                 <button type="submit" style={submitButtonStyle}>Submit</button>
             </form>
-      </div>
-        
-      <p>Email: customer-service@finwheel.tech</p>
-    </section> 
-  );
-};
-
-// Inline styles
-const formStyle: React.CSSProperties = {
-    maxWidth: '400px',
-    margin: '0 auto',
-    padding: '20px',
-    border: '1px solid #ccc',
-    borderRadius: '5px',
-    backgroundColor: '#f9f9f9',
-  };
-  
-  const formGroup: React.CSSProperties = {
-    marginBottom: '15px',
-  };
-  
-  const labelStyle: React.CSSProperties = {
-    display: 'block',
-    marginBottom: '5px',
-    fontWeight: 'bold',
-  };
-  
-  const inputStyle: React.CSSProperties = {
-    width: '100%',
-    padding: '8px',
-    fontSize: '14px',
-    border: '1px solid #ccc',
-    borderRadius: '4px',
-  };
-  
-  const textareaStyle: React.CSSProperties = {
-    minHeight: '100px',
-  };
-  
-  const submitButtonStyle: React.CSSProperties = {
-    backgroundColor: 'blue',
-    color: 'white',
-    padding: '10px 20px',
-    border: 'none',
-    borderRadius: '4px',
-    cursor: 'pointer',
-  };
-
-export default ContactForm;
+*/

@@ -10,8 +10,8 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "LaunchPage",
-  description: "Your modern landing page solution",
+  title: "FinWheel",
+  description: "Banking, automated.",
 };
 
 export default function RootLayout({

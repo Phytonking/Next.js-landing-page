@@ -16,18 +16,22 @@ const Hero: React.FC = () => {
       </p>
 
       <div className="flex flex-row gap-4">
-        <Button
-          text="Get it for Free"
-          variant="primary"
-          size="medium"
-          className="rounded-lg font-bold transition-colors hover:bg-teal-800 text-white"
-        />
-        <Button
-          text="Watch Demo"
-          variant="outline"
-          size="medium"
-          iconUrl="/playVector.svg"
-        />
+        <a href="https://forms.gle/uiZ8UTxCteUf3bxR9" target="_blank">
+          <Button
+            text="Sign up for the Beta Release"
+            variant="primary"
+            size="medium"
+            className="rounded-lg font-bold transition-colors hover:bg-teal-800 text-white"
+          />
+        </a>
+        <a href="https://youtu.be/8n7I0BAk8Bo?si=sBTn0m5VqegY-u4P" target="_blank">
+          <Button
+            text="Watch Demo"
+            variant="outline"
+            size="medium"
+            iconUrl="/playVector.svg"
+          />
+        </a>
       </div>
     </section>
   );

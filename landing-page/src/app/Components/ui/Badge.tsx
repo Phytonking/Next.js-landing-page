@@ -17,7 +17,7 @@ const Badge: React.FC<BadgeProps> = ({ text, bgColor = "bg-blue-100", className 
         height={18}
         className="mr-2"
       />
-      <span className="text-emerald-600 text-sm font-bold">{text}</span>
+      <span className="text-blue-600 text-sm font-bold">{text}</span>
     </div>
   );
 };

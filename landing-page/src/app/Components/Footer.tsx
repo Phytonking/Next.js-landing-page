@@ -28,9 +28,9 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Legal</h3>
             <ul className="space-y-2">
-              <li><Link href="/privacy" className="text-gray-400 hover:text-white transition-colors">Privacy Policy</Link></li>
-              <li><Link href="/terms" className="text-gray-400 hover:text-white transition-colors">Terms of Service</Link></li>
-              <li><Link href="/cookies" className="text-gray-400 hover:text-white transition-colors">Cookie Policy</Link></li>
+              <li><Link href="https://docs.google.com/document/d/1IMBpoheIWca-6WGaDyeza5IsJA08kg9SrfpVI8ycRkQ/edit?usp=sharing" target="_blank" className="text-gray-400 hover:text-white transition-colors">Privacy Policy</Link></li>
+              <li><Link href="https://docs.google.com/document/d/1IMBpoheIWca-6WGaDyeza5IsJA08kg9SrfpVI8ycRkQ/edit?usp=sharing" target="_blank" className="text-gray-400 hover:text-white transition-colors">Terms of Service</Link></li>
+              <li><Link href="https://docs.google.com/document/d/1IMBpoheIWca-6WGaDyeza5IsJA08kg9SrfpVI8ycRkQ/edit?usp=sharing" target="_blank" className="text-gray-400 hover:text-white transition-colors">Cookie Policy</Link></li>
             </ul>
           </div>
 
@@ -62,7 +62,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <div className="mt-8 pt-8 border-t border-gray-800 text-center">
-          <p className="text-gray-400">&copy; {currentYear} LaunchPage. All rights reserved.</p>
+          <p className="text-gray-400">&copy; {currentYear} FinWheel. All rights reserved.</p>
         </div>
       </div>
     </footer>

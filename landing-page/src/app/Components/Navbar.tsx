@@ -36,7 +36,9 @@ const Navbar: React.FC = () => {
       <nav className="max-w-[1200px] mx-auto px-4 md:px-2 py-2">
         <div className="flex justify-between items-center">
           <div className="flex items-center justify-center">
+            <a href="/">
             <Image src="/finwheel-logo-whole.png" alt="logo" width={200} height={200} priority />
+            </a>
           </div>
 
           <div className="hidden md:flex gap-12 ml-20 items-center justify-center hover:text-blue-700 transition-colors">

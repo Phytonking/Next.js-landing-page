@@ -6,7 +6,7 @@ import TestimonialCard from "./ui/TestimonialCard";
 const testimonials = [
   {
     image: "Oval.svg",
-    quote: "FinWheel has helped me manage my finances with ease, and I'm on track to a perfect retirement in 25 years. ",
+    quote: "FinWheel has helped me manage my finances with ease, and I'm on track to a perfect retirement in 25 years. Fin is such a friendly and on-point bot that really makes it super easy for me to manage my finances on the spot. Even if an emergency happens, Fin is there to help!",
     name: "Isabella Chavez",
     title: "Individual User of FinWheel",
   },
