@@ -87,7 +87,7 @@ const Pricing: React.FC = () => {
 
         <div  className="flex justify-center gap-8 flex-wrap">
           {pricingPlans[isMonthly ? "monthly" : "yearly"].map((plan, index) => (
-            <a href="https://forms.gle/AjQyY4srfNivnQPHA" target="_blank">
+            <a href="https://forms.gle/AjQyY4srfNivnQPHA" target="_blank" key="hello!">
               <PricingCard
                 key={index}
                 planName={plan.planName}
