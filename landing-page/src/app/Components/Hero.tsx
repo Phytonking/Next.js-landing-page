@@ -1,10 +1,13 @@
 import React from "react";
 import Badge from "./ui/Badge";
 import Button from "./ui/Button";
+//import Head from 'next/head';
+
 
 const Hero: React.FC = () => {
   return (
     <section id="/" className="container mx-auto px-4 py-12 flex flex-col items-start text-start md:items-center md:text-center">
+      <title>FinWheel - Automated Investment Manager</title>
       <Badge text="Have our AI take care of your finances" />
       <h1 className="text-3xl sm:text-4xl md:text-5xl text-neutral-900 font-bold leading-tight mb-6 mt-6 max-w-4xl">
       Make your personal finances easier with{" "}

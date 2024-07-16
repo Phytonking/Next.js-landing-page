@@ -18,6 +18,7 @@ function Page() {
     <div className="min-h-screen flex flex-col items-center">
       <div className="w-full sticky top-0 z-50">
         <Navbar />
+        <title>FinWheel - Automated Investment Manager</title>
       </div>
       <main className="flex-grow w-full">
         <Hero />
